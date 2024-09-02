@@ -19,7 +19,7 @@
 
     themes.active = "catppuccin";
     desktop = {
-      gnome.enable = true;
+      xmonad.enable = true;
       terminal = {
         default = "alacritty";
         alacritty.enable = true;
