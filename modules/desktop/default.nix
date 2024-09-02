@@ -75,7 +75,7 @@ in {
       services.xserver.enable = true;
       xdg.portal = {
         enable = true;
-        extraPortals = [pkgs.xdg-desktop-portal-gtk];
+        extraPortals = [];
         config.common.default = "*";
       };
       services.gnome.gnome-keyring.enable = true;
